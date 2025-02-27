@@ -6,9 +6,9 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: ghcr.io/initcron/guestbook
+      repoURL: ghcr.io/devops-0007/guestbook
       imageSelectionStrategy: SemVer
   - git:
-      repoURL: https://github.com/initcron/kargo-simple.git
+      repoURL: https://github.com/devops-0007/kargo-simple.git
       includePaths:
         - base

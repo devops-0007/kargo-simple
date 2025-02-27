@@ -4,7 +4,7 @@ resources:
 - ../../base
 namespace: guestbook-simple-dev
 images:
-- name: ghcr.io/initcron/guestbook
+- name: ghcr.io/devops-0007/guestbook
   newTag: v1.0.4
 patches:
 - path: guestbook-svc.yaml

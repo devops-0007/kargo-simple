@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/initcron/kargo-simple
+        repoURL: https://github.com/devops-0007/kargo-simple
         revision: HEAD
         directories:
           - path: "env/*"
@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/initcron/kargo-simple
+        repoURL: https://github.com/devops-0007/kargo-simple
         targetRevision: release
         path: '{{path}}/'
       destination:

@@ -6,11 +6,11 @@ metadata:
 spec:
   vars:
   - name: repoURL
-    value: https://github.com/initcron/kargo-simple.git
+    value: https://github.com/devops-0007/kargo-simple.git
   - name: branch
     value: release
   - name: image
-    value: ghcr.io/initcron/guestbook
+    value: ghcr.io/devops-0007/guestbook
   - name: openpr
     value: "false"
   steps:
